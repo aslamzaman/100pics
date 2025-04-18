@@ -6,7 +6,7 @@ const generateFishData = (random) => {
     for (let i = 0; i < 100; i++) {
         data.push({
             id: i + 1,
-            url: `https://100pics.netlify.app/api/images/fish/image_${i + 1}.jpg`
+            url: `${process.env.NEXT_PUBLIC_HOST_NAME}/images/fish/image_${i + 1}.jpg`
         })
     }
 
