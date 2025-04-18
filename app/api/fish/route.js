@@ -10,7 +10,7 @@ const generateFishData = (random) => {
         })
     }
 
-    //------------------------------------
+    //--------- Check random ---------------------------
     if (random) {
         const createRandomId = new Set();
         while (createRandomId.size < data.length) { 
